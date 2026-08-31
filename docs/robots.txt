@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tsingniao666.github.io/nettreeai/sitemap.xml
