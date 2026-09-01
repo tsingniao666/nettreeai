@@ -5,6 +5,7 @@
 [![Website](https://img.shields.io/badge/website-nettree.ai-0B3D2E?style=flat)](https://nettree.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](./LICENSE)
 [![Starter list](https://img.shields.io/badge/starter%20directories-20-2F6F4E)](./lists/starter-directories.md)
+[![Free template](https://img.shields.io/badge/free%20resource-backlink%20evidence%20log-2F6F4E)](./resources/backlink-evidence-log.csv)
 
 **Product:** [https://nettree.ai](https://nettree.ai)  
 **Pages:** [https://tsingniao666.github.io/nettreeai/](https://tsingniao666.github.io/nettreeai/)
@@ -65,6 +66,18 @@ Free plan includes a limited public-library preview. Registration unlocks deeper
 
 ---
 
+## Free backlink evidence log
+
+Fork or download a small, portable template for separating a published link from a verified one:
+
+- [Backlink Evidence Log (CSV)](./resources/backlink-evidence-log.csv) — ready to duplicate in a spreadsheet.
+- [Field guide and responsible GitHub example](./resources/backlink-evidence-log.md) — what to record, how to verify it, and how to document an owned repository or GitHub Pages asset without spam.
+- [Read it on GitHub Pages](https://tsingniao666.github.io/nettreeai/free-backlink-evidence-log.html) — browser-friendly overview and download link.
+
+The template is deliberately useful without an account. If it saves your team time, fork it, adapt it, and share improvements that make the evidence trail clearer for everyone.
+
+---
+
 ## Repository layout
 
 ```text
@@ -79,6 +92,9 @@ Free plan includes a limited public-library preview. Registration unlocks deeper
 │   ├── inclusion-criteria.md
 │   ├── starter-directories.md
 │   └── starter-directories.csv
+├── resources/
+│   ├── backlink-evidence-log.csv
+│   └── backlink-evidence-log.md
 └── methodology/
     ├── human-in-the-loop.md
     └── submitted-vs-live.md
@@ -101,6 +117,7 @@ NetTree（[nettree.ai](https://nettree.ai)）把公开网站变成可辩护的�
 - 样本列表：[lists/starter-directories.md](./lists/starter-directories.md)
 - 收录标准：[lists/inclusion-criteria.md](./lists/inclusion-criteria.md)
 - 方法说明：[methodology/](./methodology/)
+- 免费验链记录模板：[resources/backlink-evidence-log.csv](./resources/backlink-evidence-log.csv)
 
 ---
 
