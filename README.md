@@ -5,6 +5,7 @@
 [![Website](https://img.shields.io/badge/website-nettree.ai-0B3D2E?style=flat)](https://nettree.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](./LICENSE)
 [![Starter list](https://img.shields.io/badge/starter%20directories-20-2F6F4E)](./lists/starter-directories.md)
+[![SaaS directories](https://img.shields.io/badge/awesome%20SaaS%20directories-reviewed-2F6F4E)](./lists/saas-directories.md)
 [![Free template](https://img.shields.io/badge/free%20resource-backlink%20evidence%20log-2F6F4E)](./resources/backlink-evidence-log.csv)
 
 **Product:** [https://nettree.ai](https://nettree.ai)  
@@ -52,6 +53,8 @@ A maintained sample of **20** launch platforms, software directories, review cat
 
 Use the sample as a **starting lens**, not as “submit to all.” Prefer fit, then verify whether a listing actually went live.
 
+Searching for SaaS launch sites or AI tool directories? Start with the decision-oriented [Awesome SaaS directories shortlist](./lists/saas-directories.md), then use the full 20-row preview when you need the underlying fields.
+
 ---
 
 ## Quick start (product)
@@ -73,6 +76,7 @@ Fork or download a small, portable template for separating a published link from
 - [Backlink Evidence Log (CSV)](./resources/backlink-evidence-log.csv) — ready to duplicate in a spreadsheet.
 - [Field guide and responsible GitHub example](./resources/backlink-evidence-log.md) — what to record, how to verify it, and how to document an owned repository or GitHub Pages asset without spam.
 - [Read it on GitHub Pages](https://tsingniao666.github.io/nettreeai/free-backlink-evidence-log.html) — browser-friendly overview and download link.
+- [SaaS launch submission checklist](./resources/saas-launch-submission-checklist.md) — a forkable preflight for launch platforms, directories, and owned GitHub assets.
 
 The template is deliberately useful without an account. If it saves your team time, fork it, adapt it, and share improvements that make the evidence trail clearer for everyone.
 
@@ -90,11 +94,13 @@ The template is deliberately useful without an account. If it saves your team ti
 │   └── assets/site.css
 ├── lists/
 │   ├── inclusion-criteria.md
+│   ├── saas-directories.md
 │   ├── starter-directories.md
 │   └── starter-directories.csv
 ├── resources/
 │   ├── backlink-evidence-log.csv
-│   └── backlink-evidence-log.md
+│   ├── backlink-evidence-log.md
+│   └── saas-launch-submission-checklist.md
 └── methodology/
     ├── human-in-the-loop.md
     └── submitted-vs-live.md
@@ -118,6 +124,7 @@ NetTree（[nettree.ai](https://nettree.ai)）把公开网站变成可辩护的�
 - 收录标准：[lists/inclusion-criteria.md](./lists/inclusion-criteria.md)
 - 方法说明：[methodology/](./methodology/)
 - 免费验链记录模板：[resources/backlink-evidence-log.csv](./resources/backlink-evidence-log.csv)
+- SaaS 目录短名单：[lists/saas-directories.md](./lists/saas-directories.md)
 
 ---
 
