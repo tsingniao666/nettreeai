@@ -3,6 +3,8 @@
 .idea/
 .vscode/
 node_modules/
+__pycache__/
+*.pyc
 .env
 .env.*
 !*.example
