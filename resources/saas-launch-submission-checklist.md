@@ -1,5 +1,7 @@
 # SaaS launch and directory submission checklist (free)
 
+> **Web version:** [saas-launch-checklist.html](https://tsingniao666.github.io/nettreeai/saas-launch-checklist.html)
+
 Fork this checklist before submitting a SaaS product, AI tool, or developer tool to a launch platform, directory, review catalog, or community. It is designed to prevent rushed, irrelevant submissions—not to maximize submission volume.
 
 ## Product readiness

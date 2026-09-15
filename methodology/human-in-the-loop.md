@@ -1,5 +1,7 @@
 # Human in the loop
 
+> **Related:** [GitHub Pages backlink guide](https://tsingniao666.github.io/nettreeai/github-pages-backlink-guide.html)
+
 NetTree is built for teams that need **defendable** backlink work—not silent auto-spam.
 
 ## What AI is for

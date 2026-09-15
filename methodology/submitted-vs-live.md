@@ -1,5 +1,7 @@
 # Submitted vs Live
 
+> **Web version:** [submitted-vs-live.html](https://tsingniao666.github.io/nettreeai/submitted-vs-live.html)
+
 Growth work often collapses two different facts into one:
 
 | Status | What it means | What it does **not** mean |

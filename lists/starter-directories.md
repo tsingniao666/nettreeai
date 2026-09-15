@@ -1,6 +1,6 @@
 # Starter directories (public preview)
 
-> Curated sample for SaaS / AI / developer products.  
+> **Web version:** [starter-directories.html](https://tsingniao666.github.io/nettreeai/starter-directories.html) · Curated sample for SaaS / AI / developer products.  
 > Inclusion rules: [inclusion-criteria.md](./inclusion-criteria.md) · Machine-readable: [starter-directories.csv](./starter-directories.csv)
 
 This is **not** a guarantee of acceptance, rankings, or link attributes. Third-party sites set their own rules. Prefer destinations that fit your audience; verify outcomes yourself (or with [NetTree](https://nettree.ai)).
@@ -65,5 +65,6 @@ This is **not** a guarantee of acceptance, rankings, or link attributes. Third-p
 ## Version
 
 - Preview set: **20 destinations**
-- Last reviewed: **2026-09-01**
+- Last reviewed: **2026-09-15**
+- Link status fields: `last_verified`, `link_status` in CSV (rechecked on schedule)
 - Feedback / additions: see [CONTRIBUTING.md](../CONTRIBUTING.md)

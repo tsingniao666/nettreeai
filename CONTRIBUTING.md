@@ -16,6 +16,9 @@ Thanks for helping keep this preview set small and useful.
 - Pricing note (`free`, `free_entry`, `free_tier`, or paid with a short label)
 - 1–2 sentences on **why it belongs** (audience fit, standards, verifiability)
 - Update **both** `lists/starter-directories.md` and `lists/starter-directories.csv`
+- Set `last_verified` to the PR date and `link_status` to `ok` or `needs_review` after checking URLs
+- Regenerate Pages artifacts if you change public-facing content:
+  `python3 scripts/site_maintenance.py generate-sitemap && python3 scripts/site_maintenance.py render-changelog`
 
 ## What we will reject
 

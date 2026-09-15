@@ -1,5 +1,7 @@
 # Backlink Evidence Log (free template)
 
+> **Web version:** [free-backlink-evidence-log.html](https://tsingniao666.github.io/nettreeai/free-backlink-evidence-log.html)
+
 Download or fork [`backlink-evidence-log.csv`](./backlink-evidence-log.csv) to keep one defensible record of where a link was published, what it points to, and whether it is still publicly verifiable.
 
 This is a **generic CSV template**, not a promise of rankings or a list of places to submit. The two rows are illustrative; replace them before using the file.

@@ -3,17 +3,39 @@
 **Turn one URL into a backlink strategy your team can defend.**
 
 [![Website](https://img.shields.io/badge/website-nettree.ai-0B3D2E?style=flat)](https://nettree.ai)
+[![Open docs](https://img.shields.io/badge/open%20docs-GitHub%20Pages-2F6F4E?style=flat)](https://tsingniao666.github.io/nettreeai/)
+[![Last updated](https://img.shields.io/badge/updated-2026--09--15-2F6F4E?style=flat)](./docs/changelog.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](./LICENSE)
 [![Starter list](https://img.shields.io/badge/starter%20directories-20-2F6F4E)](./lists/starter-directories.md)
 [![SaaS directories](https://img.shields.io/badge/awesome%20SaaS%20directories-reviewed-2F6F4E)](./lists/saas-directories.md)
 [![Free template](https://img.shields.io/badge/free%20resource-backlink%20evidence%20log-2F6F4E)](./resources/backlink-evidence-log.csv)
 
 **Product:** [https://nettree.ai](https://nettree.ai)  
-**Pages:** [https://tsingniao666.github.io/nettreeai/](https://tsingniao666.github.io/nettreeai/)
+**Open docs (GitHub Pages):** [https://tsingniao666.github.io/nettreeai/](https://tsingniao666.github.io/nettreeai/)
 
 NetTree reads a public website, builds a living profile, and matches it to evidence-backed backlink opportunities—so your team knows **what to pursue**, **why it fits**, and **what to review** before acting.
 
 This GitHub repository is the **public presence** for NetTree: product orientation, methodology notes, and a **limited starter directory sample**. It is not a dump of every submission site on the internet, and it is not a license to spam.
+
+If this open resource hub saves your team time, **star the repo** or **fork the CSV templates**—it helps others discover honest backlink documentation.
+
+---
+
+## Open resource hub (SEO-friendly web versions)
+
+Markdown sources live in this repo; browser-friendly Pages versions are maintained for search indexing and citation:
+
+| Resource | Web page | Source |
+|----------|----------|--------|
+| Hub home | [Pages home](https://tsingniao666.github.io/nettreeai/) | [docs/index.html](./docs/index.html) |
+| SaaS directories shortlist | [saas-directories.html](https://tsingniao666.github.io/nettreeai/saas-directories.html) | [lists/saas-directories.md](./lists/saas-directories.md) |
+| Starter directories (20 rows) | [starter-directories.html](https://tsingniao666.github.io/nettreeai/starter-directories.html) | [lists/starter-directories.md](./lists/starter-directories.md) |
+| Submitted vs Live | [submitted-vs-live.html](https://tsingniao666.github.io/nettreeai/submitted-vs-live.html) | [methodology/submitted-vs-live.md](./methodology/submitted-vs-live.md) |
+| SaaS launch checklist | [saas-launch-checklist.html](https://tsingniao666.github.io/nettreeai/saas-launch-checklist.html) | [resources/saas-launch-submission-checklist.md](./resources/saas-launch-submission-checklist.md) |
+| GitHub Pages backlink guide | [github-pages-backlink-guide.html](https://tsingniao666.github.io/nettreeai/github-pages-backlink-guide.html) | — |
+| Free evidence log | [free-backlink-evidence-log.html](https://tsingniao666.github.io/nettreeai/free-backlink-evidence-log.html) | [resources/backlink-evidence-log.md](./resources/backlink-evidence-log.md) |
+| Changelog | [changelog.html](https://tsingniao666.github.io/nettreeai/changelog.html) | [data/changelog.json](./data/changelog.json) |
+| 中文 mirror | [zh/](https://tsingniao666.github.io/nettreeai/zh/) | [docs/zh/](./docs/zh/) |
 
 ---
 
@@ -22,6 +44,7 @@ This GitHub repository is the **public presence** for NetTree: product orientati
 1. **Open presence** — a clear, crawlable description of what NetTree is (and is not).
 2. **Website entry** — every meaningful surface points to [nettree.ai](https://nettree.ai).
 3. **Discoverable sample data** — a curated Markdown + CSV preview others can read, fork, or cite—with inclusion criteria so it stays honest.
+4. **Maintained freshness** — scheduled link rechecks, changelog entries, and sitemap updates signal ongoing maintenance.
 
 The full matching library, site profiles, drafts, and verification workflow live in the product—not in this repo.
 
@@ -48,7 +71,7 @@ Deep dives in this repo:
 A maintained sample of **20** launch platforms, software directories, review catalogs, AI directories, and Chinese-language discovery surfaces:
 
 - [lists/starter-directories.md](./lists/starter-directories.md) — human-readable tables + notes
-- [lists/starter-directories.csv](./lists/starter-directories.csv) — same rows for spreadsheets / scripts
+- [lists/starter-directories.csv](./lists/starter-directories.csv) — same rows for spreadsheets / scripts (`last_verified`, `link_status`)
 - [lists/inclusion-criteria.md](./lists/inclusion-criteria.md) — what belongs (and what does not)
 
 Use the sample as a **starting lens**, not as “submit to all.” Prefer fit, then verify whether a listing actually went live.
@@ -89,9 +112,24 @@ The template is deliberately useful without an account. If it saves your team ti
 ├── README.md
 ├── CONTRIBUTING.md
 ├── LICENSE
-├── docs/                         # GitHub Pages site
+├── data/
+│   └── changelog.json              # Changelog source for Pages
+├── docs/                           # GitHub Pages site
 │   ├── index.html
-│   └── assets/site.css
+│   ├── saas-directories.html
+│   ├── starter-directories.html
+│   ├── submitted-vs-live.html
+│   ├── saas-launch-checklist.html
+│   ├── github-pages-backlink-guide.html
+│   ├── free-backlink-evidence-log.html
+│   ├── changelog.html              # Generated from data/changelog.json
+│   ├── sitemap.xml                 # Generated on deploy
+│   ├── robots.txt
+│   ├── assets/
+│   └── zh/
+├── scripts/
+│   ├── site_maintenance.py
+│   └── site_config.json
 ├── lists/
 │   ├── inclusion-criteria.md
 │   ├── saas-directories.md
@@ -108,6 +146,32 @@ The template is deliberately useful without an account. If it saves your team ti
 
 ---
 
+## SEO & maintenance setup
+
+After pushing, complete these one-time steps:
+
+1. **GitHub Pages** — Settings → Pages → source: GitHub Actions (already configured). Primary public URL: `https://tsingniao666.github.io/nettreeai/` (keeps cross-domain links from `github.io` to `nettree.ai`).
+2. **Google Search Console** — Verify `tsingniao666.github.io/nettreeai` and submit `sitemap.xml`.
+3. **Bing Webmaster Tools** — Import from Search Console or verify separately.
+4. **Repository About** — Set Website to `https://nettree.ai` and Topics: `backlinks`, `seo`, `saas`, `link-building`, `growth`.
+5. **Enable Discussions** — Use the Q&A template in [`.github/DISCUSSION_TEMPLATE/`](./.github/DISCUSSION_TEMPLATE/).
+
+Automated maintenance:
+
+- **Weekly** — [freshness workflow](./.github/workflows/freshness.yml) updates sitemap, changelog, and spot-checks directory links.
+- **Bi-weekly** — [directory link check](./.github/workflows/directory-link-check.yml) verifies all starter URLs.
+- **Releases** — Tag `vYYYY.MM.DD` to publish CSV assets via [release workflow](./.github/workflows/release-template.yml).
+
+Local commands:
+
+```bash
+python3 scripts/site_maintenance.py generate-sitemap
+python3 scripts/site_maintenance.py render-changelog
+python3 scripts/site_maintenance.py check-links
+```
+
+---
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md). We welcome careful, criteria-aligned additions to the starter list—not bulk URL dumps.
@@ -120,6 +184,7 @@ NetTree（[nettree.ai](https://nettree.ai)）把公开网站变成可辩护的�
 
 本仓库用于项目公开露出、官网入口，以及一份**有限且带收录标准**的 starter 目录样本（Markdown + CSV）。完整情报库与工作流在产品内，不在此开源业务代码仓库中。
 
+- 中文 Pages：[docs/zh/](https://tsingniao666.github.io/nettreeai/zh/)
 - 样本列表：[lists/starter-directories.md](./lists/starter-directories.md)
 - 收录标准：[lists/inclusion-criteria.md](./lists/inclusion-criteria.md)
 - 方法说明：[methodology/](./methodology/)

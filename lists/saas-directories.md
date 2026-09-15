@@ -1,5 +1,7 @@
 # Awesome SaaS directories: a small, reviewed launch and listing shortlist
 
+> **Web version:** [saas-directories.html](https://tsingniao666.github.io/nettreeai/saas-directories.html) · [中文](https://tsingniao666.github.io/nettreeai/zh/saas-directories.html)
+
 Looking for **SaaS directories**, **SaaS launch sites**, **AI tool directories**, or places to submit a developer product? This is a deliberately small, reviewed shortlist—not a bulk “submit everywhere” database.
 
 The complete machine-readable source for these entries is [`starter-directories.csv`](./starter-directories.csv). Use this page to choose a sensible first path; use [NetTree](https://nettree.ai) when you need matching against your site, language, market, and evidence rather than a generic list.

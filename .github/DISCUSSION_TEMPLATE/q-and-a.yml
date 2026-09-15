@@ -1,0 +1,30 @@
+title: Question about open resources
+labels: ["q-and-a"]
+body:
+  - type: markdown
+    value: |
+      Ask about the starter directory sample, evidence log template, or methodology notes.
+      For NetTree product bugs or account issues, use [nettree.ai](https://nettree.ai) support instead.
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      placeholder: e.g. SaaS directories, Submitted vs Live, evidence log
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Include the destination or workflow you are trying to evaluate.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before posting
+      options:
+        - label: I read lists/inclusion-criteria.md before suggesting a new directory
+          required: false
+        - label: I am not asking for promotional links in repositories I do not manage
+          required: true

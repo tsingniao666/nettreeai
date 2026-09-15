@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-09-15",
+    "items": [
+      "Expanded GitHub Pages with SaaS directories, Submitted vs Live, launch checklist, and GitHub backlink guide.",
+      "Added Chinese mirror pages, automated sitemap generation, and weekly freshness workflows.",
+      "Enhanced structured data across open resource pages; kept github.io as the primary public URL for cross-domain links to nettree.ai."
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "items": [
+      "Published SaaS directory shortlist and Awesome SaaS directories resource page.",
+      "Added free backlink evidence log CSV template and browser-friendly download page."
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "items": [
+      "Launched GitHub Actions workflow to publish the docs Pages site.",
+      "Published NetTree public presence with curated starter directories (20 destinations)."
+    ]
+  }
+]

@@ -1,21 +1,21 @@
-name,homepage_url,submission_url,category,languages,regions,pricing,source_kind,notes
-Product Hunt,https://www.producthunt.com/,https://www.producthunt.com/posts/new,launch,"English","Global;United States",free_entry,launch_platform,Flagship tech launch surface; prepare screenshots and a crisp one-liner.
-BetaList,https://betalist.com/,https://betalist.com/submit,launch,"English","Global;United States",free_entry,launch_platform,Strong for pre-launch products with a landing page.
-Hacker News,https://news.ycombinator.com/,https://news.ycombinator.com/submit,launch,"English","Global;United States",free,community,Show HN works when the product and title earn it.
-Indie Hackers,https://www.indiehackers.com/,https://www.indiehackers.com/,launch,"English","Global;United States",free,community,Better for founder narrative than one-click listings.
-AlternativeTo,https://alternativeto.net/,https://alternativeto.net/manage/add-alternative/,directory,"English","Global;United States;EU",free_entry,directory,Frame the product as an alternative to known tools.
-SaaSHub,https://www.saashub.com/,https://www.saashub.com/submit,directory,"English","Global;United States;EU",free_entry,directory,Straightforward SaaS catalog listing.
-StartupStash,https://startupstash.com/,https://startupstash.com/add-listing/,directory,"English","Global;United States",free_entry,directory,Founder-oriented tools catalog.
-Slant,https://www.slant.co/,https://www.slant.co/,directory,"English","Global;United States",free,review_platform,Comparison-style community recommendations.
-G2,https://www.g2.com/,https://www.g2.com/products/new,reviews,"English","United States;Global",free_entry,review_platform,Strict review culture; listing is not instant authority.
-Capterra,https://www.capterra.com/,https://www.capterra.com/vendors/sign-up,reviews,"English","United States;Global",free_entry,review_platform,Software directory and reviews for SaaS buyers.
-GetApp,https://www.getapp.com/,https://www.getapp.com/,reviews,"English","United States;Global",free_entry,review_platform,Gartner Digital Markets family; similar buyer intent to Capterra.
-Toolify,https://www.toolify.ai/,https://www.toolify.ai/submit,ai_directory,"English;Chinese","Global;China;United States",free_entry,directory,Useful when the product is clearly AI-positioned.
-There's An AI For That,https://theresanaiforthat.com/,https://theresanaiforthat.com/submit/,ai_directory,"English","Global;United States",free_entry,directory,Large AI discovery catalog.
-Futurepedia,https://www.futurepedia.io/,https://www.futurepedia.io/submit-tool,ai_directory,"English","Global;United States",free_entry,directory,Needs a clear category and positioning.
-Crunchbase,https://www.crunchbase.com/,https://www.crunchbase.com/,company_profile,"English","Global;United States",free_tier,company_profile,Brand and investor discoverability; not a classic SEO directory.
-开源中国,https://www.oschina.net/,https://www.oschina.net/,china_discovery,"Chinese","China",free,directory,Strong for open-source and developer tools.
-掘金,https://juejin.cn/,https://juejin.cn/,china_discovery,"Chinese","China",free,media_publication,Content-led discovery; earn the link in the piece.
-V2EX,https://www.v2ex.com/,https://www.v2ex.com/,china_discovery,"Chinese","China",free,community,Community norms matter; avoid spammy self-promo.
-小众软件,https://www.appinn.com/,https://www.appinn.com/,china_discovery,"Chinese","China",free,media_publication,Pitch quality tools; editorial acceptance is selective.
-SegmentFault,https://segmentfault.com/,https://segmentfault.com/,china_discovery,"Chinese","China",free,community,Developer Q&A and writing surface.
+name,homepage_url,submission_url,category,languages,regions,pricing,source_kind,notes,last_verified,link_status
+Product Hunt,https://www.producthunt.com/,https://www.producthunt.com/posts/new,launch,"English","Global;United States",free_entry,launch_platform,Flagship tech launch surface; prepare screenshots and a crisp one-liner.,2026-09-15,ok
+BetaList,https://betalist.com/,https://betalist.com/submit,launch,"English","Global;United States",free_entry,launch_platform,Strong for pre-launch products with a landing page.,2026-09-15,ok
+Hacker News,https://news.ycombinator.com/,https://news.ycombinator.com/submit,launch,"English","Global;United States",free,community,Show HN works when the product and title earn it.,2026-09-15,ok
+Indie Hackers,https://www.indiehackers.com/,https://www.indiehackers.com/,launch,"English","Global;United States",free,community,Better for founder narrative than one-click listings.,2026-09-15,ok
+AlternativeTo,https://alternativeto.net/,https://alternativeto.net/manage/add-alternative/,directory,"English","Global;United States;EU",free_entry,directory,Frame the product as an alternative to known tools.,2026-09-15,ok
+SaaSHub,https://www.saashub.com/,https://www.saashub.com/submit,directory,"English","Global;United States;EU",free_entry,directory,Straightforward SaaS catalog listing.,2026-09-15,ok
+StartupStash,https://startupstash.com/,https://startupstash.com/add-listing/,directory,"English","Global;United States",free_entry,directory,Founder-oriented tools catalog.,2026-09-15,ok
+Slant,https://www.slant.co/,https://www.slant.co/,directory,"English","Global;United States",free,review_platform,Comparison-style community recommendations.,2026-09-15,ok
+G2,https://www.g2.com/,https://www.g2.com/products/new,reviews,"English","United States;Global",free_entry,review_platform,Strict review culture; listing is not instant authority.,2026-09-15,ok
+Capterra,https://www.capterra.com/,https://www.capterra.com/vendors/sign-up,reviews,"English","United States;Global",free_entry,review_platform,Software directory and reviews for SaaS buyers.,2026-09-15,ok
+GetApp,https://www.getapp.com/,https://www.getapp.com/,reviews,"English","United States;Global",free_entry,review_platform,Gartner Digital Markets family; similar buyer intent to Capterra.,2026-09-15,ok
+Toolify,https://www.toolify.ai/,https://www.toolify.ai/submit,ai_directory,"English;Chinese","Global;China;United States",free_entry,directory,Useful when the product is clearly AI-positioned.,2026-09-15,ok
+There's An AI For That,https://theresanaiforthat.com/,https://theresanaiforthat.com/submit/,ai_directory,"English","Global;United States",free_entry,directory,Large AI discovery catalog.,2026-09-15,ok
+Futurepedia,https://www.futurepedia.io/,https://www.futurepedia.io/submit-tool,ai_directory,"English","Global;United States",free_entry,directory,Needs a clear category and positioning.,2026-09-15,ok
+Crunchbase,https://www.crunchbase.com/,https://www.crunchbase.com/,company_profile,"English","Global;United States",free_tier,company_profile,Brand and investor discoverability; not a classic SEO directory.,2026-09-15,ok
+开源中国,https://www.oschina.net/,https://www.oschina.net/,china_discovery,"Chinese","China",free,directory,Strong for open-source and developer tools.,2026-09-15,ok
+掘金,https://juejin.cn/,https://juejin.cn/,china_discovery,"Chinese","China",free,media_publication,Content-led discovery; earn the link in the piece.,2026-09-15,ok
+V2EX,https://www.v2ex.com/,https://www.v2ex.com/,china_discovery,"Chinese","China",free,community,Community norms matter; avoid spammy self-promo.,2026-09-15,ok
+小众软件,https://www.appinn.com/,https://www.appinn.com/,china_discovery,"Chinese","China",free,media_publication,Pitch quality tools; editorial acceptance is selective.,2026-09-15,ok
+SegmentFault,https://segmentfault.com/,https://segmentfault.com/,china_discovery,"Chinese","China",free,community,Developer Q&A and writing surface.,2026-09-15,ok

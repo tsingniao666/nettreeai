@@ -23,6 +23,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Build site artifacts
+        run: |
+          python3 scripts/site_maintenance.py render-changelog
+          python3 scripts/site_maintenance.py generate-sitemap
+      - name: Ping search engines
+        if: github.ref == 'refs/heads/main'
+        run: python3 scripts/site_maintenance.py ping-search-engines || true
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

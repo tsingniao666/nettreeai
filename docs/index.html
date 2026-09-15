@@ -3,20 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>NetTree — defendable backlink planning</title>
+    <title>NetTree Open Resources — Defendable Backlink Planning</title>
     <meta
       name="description"
-      content="NetTree turns one URL into an evidence-backed backlink plan. Human-approved execution. Submitted is activity; Live is verified."
+      content="Free open resources from NetTree: SaaS directory shortlists, Submitted vs Live verification guides, launch checklists, and a backlink evidence log template."
     />
     <link rel="canonical" href="https://tsingniao666.github.io/nettreeai/" />
+    <link rel="alternate" hreflang="en" href="https://tsingniao666.github.io/nettreeai/" />
+    <link rel="alternate" hreflang="zh" href="https://tsingniao666.github.io/nettreeai/zh/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="NetTree — defendable backlink planning" />
+    <meta property="og:title" content="NetTree Open Resources — Defendable Backlink Planning" />
     <meta
       property="og:description"
-      content="Map your site, match destinations with evidence, keep humans in the loop, and verify Live vs Submitted."
+      content="Guides, checklists, and curated directory samples for evidence-backed backlink work. Product home: nettree.ai."
     />
     <meta property="og:url" content="https://tsingniao666.github.io/nettreeai/" />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="https://tsingniao666.github.io/nettreeai/assets/og-default.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,31 +30,60 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "NetTree",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Web",
-        "url": "https://nettree.ai/",
-        "description": "Proof-led growth intelligence: turn one URL into a defendable backlink strategy with human-approved execution and live-link verification.",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
-          "description": "Free plan available with limited preview"
-        }
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "NetTree",
+            "url": "https://nettree.ai/",
+            "logo": "https://tsingniao666.github.io/nettreeai/assets/og-default.svg",
+            "description": "AI-assisted backlink command center for teams that need defendable outreach decisions.",
+            "sameAs": [
+              "https://github.com/tsingniao666/nettreeai",
+              "https://tsingniao666.github.io/nettreeai/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "name": "NetTree Open Resources",
+            "url": "https://tsingniao666.github.io/nettreeai/",
+            "publisher": { "@type": "Organization", "name": "NetTree" },
+            "inLanguage": ["en", "zh-Hans"]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "NetTree",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "url": "https://nettree.ai/",
+            "description": "Turn one URL into a defendable backlink strategy with human-approved execution and live-link verification.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "description": "Free plan available with limited preview"
+            }
+          }
+        ]
       }
     </script>
   </head>
   <body>
     <header class="site-header">
       <div class="wrap brand-row">
-        <a class="logo" href="https://nettree.ai/">NetTree</a>
+        <a class="logo" href="./">NetTree</a>
         <nav class="nav" aria-label="Primary">
-          <a href="https://nettree.ai/">Website</a>
+          <a href="./" aria-current="page">Home</a>
+          <a href="./saas-directories.html">SaaS directories</a>
+          <a href="./submitted-vs-live.html">Submitted vs Live</a>
+          <a href="./free-backlink-evidence-log.html">Evidence log</a>
+          <a href="./changelog.html">Changelog</a>
+          <a href="https://nettree.ai/">Product</a>
           <a href="https://github.com/tsingniao666/nettreeai">GitHub</a>
-          <a href="https://github.com/tsingniao666/nettreeai/blob/main/lists/starter-directories.md">Starter list</a>
-          <a href="https://github.com/tsingniao666/nettreeai/blob/main/lists/saas-directories.md">SaaS directories</a>
-          <a href="./free-backlink-evidence-log.html">Free evidence log</a>
+          <span class="lang-switch" aria-label="Language">
+            <a href="./" aria-current="true" hreflang="en">EN</a>
+            <span>/</span>
+            <a href="./zh/" hreflang="zh">中文</a>
+          </span>
         </nav>
       </div>
     </header>
@@ -66,13 +98,10 @@
               NetTree reads your public site, matches destinations with evidence you can inspect,
               and keeps people on the final click—so activity never masquerades as a live link.
             </p>
+            <p class="updated-badge">Open resources updated: 2026-09-15</p>
             <div class="cta-row">
               <a class="btn btn-primary" href="https://nettree.ai/">Open nettree.ai</a>
-              <a
-                class="btn btn-ghost"
-                href="https://github.com/tsingniao666/nettreeai/blob/main/lists/starter-directories.md"
-                >Browse starter directories</a
-              >
+              <a class="btn btn-ghost" href="./saas-directories.html">SaaS directories</a>
               <a class="btn btn-ghost" href="./free-backlink-evidence-log.html">Free evidence log</a>
             </div>
           </div>
@@ -114,34 +143,46 @@
 
       <section>
         <div class="wrap">
-          <h2>Open materials on GitHub</h2>
+          <h2>Open resource hub</h2>
           <p class="section-lead">
-            This Pages site mirrors the public repository: methodology notes plus a curated starter sample.
+            Browser-friendly guides and templates from the public repository. Fork, cite, or adapt—then verify outcomes honestly.
           </p>
           <div class="links">
-            <a href="https://github.com/tsingniao666/nettreeai">
-              <strong>Repository README</strong>
-              <span>Product overview, layout, and Chinese summary.</span>
+            <a href="./saas-directories.html">
+              <strong>SaaS directories shortlist</strong>
+              <span>Reviewed launch, B2B, AI, and Chinese discovery paths by product goal.</span>
             </a>
-            <a href="https://github.com/tsingniao666/nettreeai/blob/main/lists/starter-directories.md">
-              <strong>Starter directories (Markdown)</strong>
-              <span>20 launch, directory, review, AI, and Chinese discovery destinations.</span>
+            <a href="./starter-directories.html">
+              <strong>Starter directories (20 rows)</strong>
+              <span>Public preview tables plus CSV download.</span>
             </a>
-            <a href="https://github.com/tsingniao666/nettreeai/blob/main/lists/saas-directories.md">
-              <strong>Awesome SaaS directories</strong>
-              <span>A small SaaS launch and listing shortlist, organized by product goal instead of bulk submission volume.</span>
-            </a>
-            <a href="https://github.com/tsingniao666/nettreeai/blob/main/lists/starter-directories.csv">
-              <strong>starter-directories.csv</strong>
-              <span>Same rows for spreadsheets and light automation.</span>
-            </a>
-            <a href="https://github.com/tsingniao666/nettreeai/blob/main/methodology/submitted-vs-live.md">
+            <a href="./submitted-vs-live.html">
               <strong>Submitted vs Live</strong>
-              <span>Keep activity and verified outcomes separate.</span>
+              <span>Separate outreach activity from verified public links.</span>
+            </a>
+            <a href="./saas-launch-checklist.html">
+              <strong>SaaS launch checklist</strong>
+              <span>Fork-friendly preflight before directory or community submissions.</span>
+            </a>
+            <a href="./github-pages-backlink-guide.html">
+              <strong>GitHub Pages backlink guide</strong>
+              <span>Use owned GitHub assets responsibly—not as spam.</span>
             </a>
             <a href="./free-backlink-evidence-log.html">
               <strong>Free Backlink Evidence Log</strong>
-              <span>Download a portable CSV template for public-page evidence and verification checks.</span>
+              <span>Portable CSV template for public-page evidence and verification checks.</span>
+            </a>
+            <a href="./changelog.html">
+              <strong>Changelog</strong>
+              <span>Directory rechecks, new guides, and maintenance updates.</span>
+            </a>
+            <a href="./zh/">
+              <strong>中文开放资源</strong>
+              <span>NetTree 公开资源中文 mirror。</span>
+            </a>
+            <a href="https://github.com/tsingniao666/nettreeai">
+              <strong>Repository README</strong>
+              <span>Markdown sources, layout, and contribution guidelines.</span>
             </a>
           </div>
         </div>
