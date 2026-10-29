@@ -11,6 +11,7 @@
 [![Free template](https://img.shields.io/badge/free%20resource-backlink%20evidence%20log-2F6F4E)](./resources/backlink-evidence-log.csv)
 
 **Product:** [https://nettree.ai](https://nettree.ai)  
+**Public MCP:** [https://nettree.ai/mcp](https://nettree.ai/mcp) · endpoint `https://nettree.ai/api/mcp`  
 **Open docs (GitHub Pages):** [https://tsingniao666.github.io/nettreeai/](https://tsingniao666.github.io/nettreeai/)
 
 NetTree reads a public website, builds a living profile, and matches it to evidence-backed backlink opportunities—so your team knows **what to pursue**, **why it fits**, and **what to review** before acting.
@@ -35,6 +36,7 @@ Markdown sources live in this repo; browser-friendly Pages versions are maintain
 | GitHub Pages backlink guide | [github-pages-backlink-guide.html](https://tsingniao666.github.io/nettreeai/github-pages-backlink-guide.html) | — |
 | Free evidence log | [free-backlink-evidence-log.html](https://tsingniao666.github.io/nettreeai/free-backlink-evidence-log.html) | [resources/backlink-evidence-log.md](./resources/backlink-evidence-log.md) |
 | Changelog | [changelog.html](https://tsingniao666.github.io/nettreeai/changelog.html) | [data/changelog.json](./data/changelog.json) |
+| Public MCP (agents) | [mcp-server.html](https://tsingniao666.github.io/nettreeai/mcp-server.html) | [server.json](./server.json) · [resources/mcp-listing-guide.md](./resources/mcp-listing-guide.md) |
 | 中文 mirror | [zh/](https://tsingniao666.github.io/nettreeai/zh/) | [docs/zh/](./docs/zh/) |
 
 ---
@@ -153,7 +155,7 @@ After pushing, complete these one-time steps:
 1. **GitHub Pages** — Settings → Pages → source: GitHub Actions (already configured). Primary public URL: `https://tsingniao666.github.io/nettreeai/` (keeps cross-domain links from `github.io` to `nettree.ai`).
 2. **Google Search Console** — Verify `tsingniao666.github.io/nettreeai` and submit `sitemap.xml`.
 3. **Bing Webmaster Tools** — Import from Search Console or verify separately.
-4. **Repository About** — Set Website to `https://nettree.ai` and Topics: `backlinks`, `seo`, `saas`, `link-building`, `growth`.
+4. **Repository About** — Set Website to `https://nettree.ai` and Topics: `backlinks`, `seo`, `saas`, `link-building`, `growth`, `mcp-server`.
 5. **Enable Discussions** — Use the Q&A template in [`.github/DISCUSSION_TEMPLATE/`](./.github/DISCUSSION_TEMPLATE/).
 
 Automated maintenance:

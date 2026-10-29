@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NetTree Public MCP — Agent catalog for link destinations</title>
+    <meta
+      name="description"
+      content="Connect Cursor or Claude Desktop to NetTree’s read-only MCP: search public directories, inspect redacted records, and suggest fit. API keys in NetTree account settings."
+    />
+    <link rel="canonical" href="https://tsingniao666.github.io/nettreeai/mcp-server.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="NetTree Public MCP" />
+    <meta
+      property="og:description"
+      content="Streamable HTTP MCP at nettree.ai/api/mcp with per-user Bearer keys."
+    />
+    <meta property="og:url" content="https://tsingniao666.github.io/nettreeai/mcp-server.html" />
+    <meta property="og:image" content="https://tsingniao666.github.io/nettreeai/assets/og-default.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,550;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/site.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap brand-row">
+        <a class="logo" href="./">NetTree</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="./">Home</a>
+          <a href="./saas-directories.html">SaaS directories</a>
+          <a href="./mcp-server.html" aria-current="page">Public MCP</a>
+          <a href="./submitted-vs-live.html">Submitted vs Live</a>
+          <a href="./free-backlink-evidence-log.html">Evidence log</a>
+          <a href="./changelog.html">Changelog</a>
+          <a href="https://nettree.ai/mcp">Product MCP docs</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero hero-compact">
+        <div class="wrap">
+          <p class="eyebrow">Model Context Protocol</p>
+          <h1 class="wide">NetTree public MCP for AI agents</h1>
+          <p class="lede">
+            A read-only catalog of public link destinations (directories and similar surfaces). Submission URLs,
+            full metrics, and workspace workflows stay on
+            <a href="https://nettree.ai/">nettree.ai</a>.
+          </p>
+          <p class="updated-badge">Endpoint: <code>https://nettree.ai/api/mcp</code></p>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap prose">
+          <h2>Tools</h2>
+          <ul>
+            <li><code>search_link_sources</code> — filter by kind, pricing, language, risk, query</li>
+            <li><code>get_link_source</code> — one record by id or root domain</li>
+            <li><code>suggest_link_sources</code> — heuristic fit for a site profile</li>
+          </ul>
+
+          <h2>API key</h2>
+          <p>
+            Register at
+            <a href="https://nettree.ai/register?plan=free">nettree.ai</a>, verify email, then copy your key under
+            <a href="https://nettree.ai/app/settings/account#mcp">Account → MCP API key</a>.
+          </p>
+
+          <h2>Cursor configuration</h2>
+          <pre><code>{
+  "mcpServers": {
+    "nettree-public": {
+      "url": "https://nettree.ai/api/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_MCP_API_KEY"
+      }
+    }
+  }
+}</code></pre>
+          <p>The literal <code>Bearer </code> prefix is required.</p>
+
+          <h2>Public limits</h2>
+          <ul>
+            <li>Up to 15 rows per page, 3 pages per search (45 rows max per query)</li>
+            <li><code>suggest_link_sources</code> returns at most 10 items</li>
+            <li>Rate limit: 60 tool calls per minute per API key</li>
+          </ul>
+
+          <h2>Registry metadata</h2>
+          <p>
+            Official MCP Registry manifest:
+            <a href="https://github.com/tsingniao666/nettreeai/blob/main/server.json"><code>server.json</code></a>
+            in this repository (<code>io.github.tsingniao666/nettree-public</code>).
+          </p>
+          <p>
+            Listing checklist:
+            <a href="https://github.com/tsingniao666/nettreeai/blob/main/resources/mcp-listing-guide.md">mcp-listing-guide.md</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Product: <a href="https://nettree.ai/">nettree.ai</a> · Source:
+          <a href="https://github.com/tsingniao666/nettreeai">GitHub</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

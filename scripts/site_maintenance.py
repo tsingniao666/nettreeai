@@ -29,6 +29,7 @@ PAGE_PRIORITIES = {
     "free-backlink-evidence-log.html": 0.85,
     "saas-launch-checklist.html": 0.8,
     "github-pages-backlink-guide.html": 0.8,
+    "mcp-server.html": 0.82,
     "changelog.html": 0.75,
     "zh/index.html": 0.7,
     "zh/saas-directories.html": 0.65,

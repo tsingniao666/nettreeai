@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tsingniao666/nettree-public",
+  "title": "NetTree Public",
+  "description": "Read-only link-destination catalog for agents: search, get, and suggest public fit.",
+  "repository": {
+    "url": "https://github.com/tsingniao666/nettreeai",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://nettree.ai/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nettree.ai/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer MCP API key from NetTree Account settings (https://nettree.ai/app/settings/account#mcp)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
