@@ -36,7 +36,7 @@ Markdown sources live in this repo; browser-friendly Pages versions are maintain
 | GitHub Pages backlink guide | [github-pages-backlink-guide.html](https://tsingniao666.github.io/nettreeai/github-pages-backlink-guide.html) | — |
 | Free evidence log | [free-backlink-evidence-log.html](https://tsingniao666.github.io/nettreeai/free-backlink-evidence-log.html) | [resources/backlink-evidence-log.md](./resources/backlink-evidence-log.md) |
 | Changelog | [changelog.html](https://tsingniao666.github.io/nettreeai/changelog.html) | [data/changelog.json](./data/changelog.json) |
-| Public MCP (agents) | [mcp-server.html](https://tsingniao666.github.io/nettreeai/mcp-server.html) | [server.json](./server.json) · [resources/mcp-listing-guide.md](./resources/mcp-listing-guide.md) |
+| Public MCP (agents) | [mcp-server.html](https://tsingniao666.github.io/nettreeai/mcp-server.html) | [server.json](./server.json) · [mcp-listing-guide.md](./resources/mcp-listing-guide.md) · [awesome-remote PR template](./resources/pr-awesome-remote-mcp-servers.md) |
 | 中文 mirror | [zh/](https://tsingniao666.github.io/nettreeai/zh/) | [docs/zh/](./docs/zh/) |
 
 ---
